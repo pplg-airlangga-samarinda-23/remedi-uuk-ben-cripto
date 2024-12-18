@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: yellow; /* Yellow color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.faq-item {
+    margin-bottom: 20px;
+}
+.faq-item p {
+    margin: 5px 0;
+}
+.faq-item .question {
+    font-weight: bold;
+}
+.faq-item .answer {
+    color: green;
+}
+.form-section {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+.form-section h2 {
+    margin-bottom: 20px;
+}
+.form-section form {
+    display: inline-block;
+    text-align: left;
+}
+.form-section form div {
+    margin-bottom: 10px;
+}
+.form-section form label {
+    display: inline-block;
+    width: 80px;
+    text-align: center; /* Center the label text */
+}
+.form-section form input, .form-section form textarea {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.form-section form button {
+    display: block;
+    width: 100px; /* Reduced width */
+    padding: 10px;
+    background-color: #add8e6;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin: 0 auto; /* Center the button */
+}
+.form-section form button:hover {
+    background-color: #87ceeb;
+}
+footer {
+    background-color: yellow; /* Yellow color */
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #000;
+    position: relative;
+}
+.footer-icons {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.footer-icons i {
+    margin-left: 10px;
+    color: #87ceeb;
+}

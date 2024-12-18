@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+}
+.header {
+    background-color: #fff3b0;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+.content {
+    margin: 20px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.content h2 {
+    margin-bottom: 20px;
+}
+.content div {
+    margin-bottom: 10px;
+}
+.content label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+.content input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.content button {
+    padding: 5px 10px;
+    background-color: #add8e6;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.footer {
+    background-color: #fff3b0;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.footer .pagination {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.footer .pagination span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #add8e6;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+    
